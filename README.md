@@ -9,7 +9,7 @@ This is an implementation of our submission to the Complex Word Identification t
 
 We did not use language model probabilities. You might be mistake when we have a feature call "word-level trigram density". We calculate the density by computing the sum probability of the character trigrams (normalized by the sum of all possible trigrams within the word). 
 
-First, we collated all trigram probabilities from the trigram counts from the [English subset of the DSLCC dataset](https://github.com/Simdiva/DSL-Task) and produce a lookup table for every trigram and it's probabiliity, see https://github.com/alvations/MacSaar-CWI/blob/master/bayesline.py#L15. For a given the word, e.g. `purgation that produces the following character trigrams {pur, urg, rga, gat, ati, tio, ion}, we sum the probabilities for these trigram and divided it by 7. 
+First, we collated all trigram probabilities from the trigram counts from the [English subset of the DSLCC v1.0 dataset](https://github.com/Simdiva/DSL-Task) and produce a lookup table for every trigram and it's probabiliity, see https://github.com/alvations/MacSaar-CWI/blob/master/bayesline.py#L15. For a given the word, e.g. `purgation that produces the following character trigrams {pur, urg, rga, gat, ati, tio, ion}, we sum the probabilities for these trigram and divided it by 7. 
 
 **Did you do any parameter tuning?**
 

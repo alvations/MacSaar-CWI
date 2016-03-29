@@ -3,7 +3,7 @@
 This is an implementation of our submission to the Complex Word Identification task (CWI) in SemEval-2016. The system is based on the assumption that complex words are likely to be less frequent and on average longer than words considered to be simple.
 
 
-# FAQ
+# Nitty-Gritty
 
 **What tool did you use to calculate the language model probabilities?**
 
